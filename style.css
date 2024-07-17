@@ -1,1 +1,12 @@
 @import 'bootstrap';
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #222;
+    color: gold;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}

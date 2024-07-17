@@ -10,3 +10,30 @@ footer {
     text-align: center;
     line-height: 50px;
 }
+
+
+#yair-contenedor {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2em;
+    width: 90%;
+    margin: 0 auto;
+
+    animation: yair infinite 2s ease-in-out;
+}
+#yair-contenedor h2, 
+#yair-contenedor p {
+    text-align: center;
+}
+
+@keyframes yair {
+    0%, 100%{
+        border-radius: 50px;
+        background-color: rgb(119, 151, 151);
+        color: #222;
+    }
+    50%{
+        background-color: blue;
+        color: wheat;
+        border-radius: 10px;
+    }
+}
